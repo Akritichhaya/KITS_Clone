@@ -274,72 +274,9 @@
      <h4 style="font-family: 'Roboto', sans-serif ;font-size: 17px;">Virtual Tour</h4>
    </div>
    <div class="text-center p-2">
-
-     <!-- <iframe width="100%" height="150px" frameborder="0" data-src="//www.youtube.com/embed/bEvV9poCJGo?rel=0&enablejsapi=1" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></iframe> -->
-     <!-- <iframe width="100%" height="158px;" class="rep" src="https://www.youtube.com/embed/bEvV9poCJGo"title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-
-     <!-- <a href="https://www.youtube.com/watch?v=bEvV9poCJGo" class=" fa fa-youtube-play" style="font-size:48px;color:red" target="_blank"></a> -->
-     <!-- <iframe width="100%" height="158px;"src="https://www.youtube.com/embed/bEvV9poCJGo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-     <!-- <iframe width="100%" height="158px;" src="https://www.youtube.com/embed/QYkW85OdDyU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        -->
         <iframe style="width:100%; height: 158px;" src="https://www.youtube.com/embed/ZGmrDXJA7M0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
       </div>
  </div>
- <!-- <script>
-   " use strict";
-   document.addEventListener('DOMContentLoaded', function() {
-     // Activate only if not already activated
-     if (window.hideYTActivated) return;
-     // Activate on all players
-     let onYouTubeIframeAPIReadyCallbacks = [];
-     for (let playerWrap of document.querySelectorAll(".hytPlayerWrap")) {
-       let playerFrame = playerWrap.querySelector("iframe");
-
-       let tag = document.createElement('script');
-       tag.src = "https://www.youtube.com/iframe_api";
-       let firstScriptTag = document.getElementsByTagName('script')[0];
-       firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-
-       let onPlayerStateChange = function(event) {
-         if (event.data == YT.PlayerState.ENDED) {
-           playerWrap.classList.add("ended");
-         } else if (event.data == YT.PlayerState.PAUSED) {
-           playerWrap.classList.add("paused");
-         } else if (event.data == YT.PlayerState.PLAYING) {
-           playerWrap.classList.remove("ended");
-           playerWrap.classList.remove("paused");
-         }
-       };
-
-       let player;
-       onYouTubeIframeAPIReadyCallbacks.push(function() {
-         player = new YT.Player(playerFrame, {
-           events: {
-             'onStateChange': onPlayerStateChange
-           }
-         });
-       });
-
-       playerWrap.addEventListener("click", function() {
-         let playerState = player.getPlayerState();
-         if (playerState == YT.PlayerState.ENDED) {
-           player.seekTo(0);
-         } else if (playerState == YT.PlayerState.PAUSED) {
-           player.playVideo();
-         }
-       });
-     }
-
-     window.onYouTubeIframeAPIReady = function() {
-       for (let callback of onYouTubeIframeAPIReadyCallbacks) {
-         callback();
-       }
-     };
-
-     window.hideYTActivated = true;
-   });
- </script> -->
-              
  
 <div class="col-md-6 bye">
 <div class="service-item bg1">
